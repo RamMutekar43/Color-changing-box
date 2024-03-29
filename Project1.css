@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(131, 122, 122);
+}
+
+.centerbox{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%,-50%);
+    border: solid black;
+    height: 60%;
+    width: 50%;
+    border-radius: 10px;
+    
+}
+
+.text{
+    font-size: 6rem;
+    color: white;
+    text-align: center;
+}
